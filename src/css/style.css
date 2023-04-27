@@ -82,7 +82,7 @@ h2.title {
 .promo .promo_btn {
     display: block;
     margin: 0 auto;
-    margin-top: 72px;
+    margin-top: 70px;
     width: 313px;
     height: 72px;
     background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
@@ -115,3 +115,60 @@ h2.title {
     margin: 0 auto;
     margin-top: 5px;
 }
+
+.waiting {
+    height: 604px;
+    background: #efefef;
+    padding: 88px 0 75px 0;
+}
+
+.waiting .waiting_header {
+    color: #252525;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+
+.waiting .waiting_divider {
+    width: 220px;
+    height: 7px;    
+    background: #F9BF3B;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.waiting .waiting_subheader {
+    color: #4A4A4A;
+    margin-top: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper {
+    margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    width: 342px;
+    color: #4A4A4A;
+    text-align: center;
+    line-height: 21px;
+}
+
+.waiting .waiting_wrapper .waiting_img {
+    width: 100%;
+}
+
+/* .waiting .waiting_wrapper .waiting_descr {
+    color: #4A4A4A;
+    width: 369px;
+    text-align: center;
+} */
