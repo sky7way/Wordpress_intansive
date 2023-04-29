@@ -123,7 +123,7 @@ h2.title {
     padding: 88px 0 75px 0;
 }
 
-.waiting .waiting_header, .finish .finish_header {
+.waiting .waiting_header, .finish .finish_header, .first_vebinar .header {
     color: #252525;
     font-family: 'Roboto';
     font-style: normal;
@@ -275,5 +275,43 @@ h2.title {
     font-weight: 400;
     font-size: 30px;
     line-height: 43px;
+    text-align: center;
+}
+
+.first_vebinar {
+    min-height: 510px;
+    padding: 89px 0 53px 0;
+}
+
+.first_vebinar .img_vebinar {
+    display: block;
+    margin: 0 auto;
+    width: 342px;
+    height: 201px;
+}
+
+.first_vebinar .header {
+    margin-top: 36px;
+    text-align: center;
+}
+
+.first_vebinar .start {
+    margin-top: 30px;
+    color: #299CBD;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.first_vebinar .text {
+    margin-top: 25px;
+    color: #4A4A4A;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
     text-align: center;
 }
