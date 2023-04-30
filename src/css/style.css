@@ -65,7 +65,7 @@ h2.title {
     padding: 0 13px;
     margin-top: 23px;
     color: #FFFFFF;
-    font-family: 'Roboto Light';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 21px;
@@ -75,7 +75,7 @@ h2.title {
 
 .promo .promo_text span {
     color: #F9BF3B;
-    font-family: 'Roboto - Bold';
+    font-family: 'Roboto';
     font-weight: 700;
     text-transform: uppercase;
     }
@@ -327,7 +327,7 @@ footer {
     width: 377px;
     text-align: center;
     color: #888888;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
@@ -335,7 +335,7 @@ footer {
 
 footer a {
     color: #888888;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
@@ -351,7 +351,7 @@ a:hover {
     width: 377px;
     text-align: center;
     color: #888888;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
