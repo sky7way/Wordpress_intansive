@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wordpress интенсив</title>
+    <link rel="stylesheet" href="/src/css/normalize.css">
     <link rel="stylesheet" href="/src/css/style.css">
 </head>
 <body>
@@ -146,13 +147,14 @@
         </div>
     </section>
 
-    <footer class="contact">
-        <div class="container">
-            <div class="contact_link">
-                <a href="http://">Служба поддержки</a>
-                <a href="http://">Политика конфиденциальности</a>
+    <footer>
+        <div class="info">
+            <div class="info_links">
+                <a href="#">Служба поддержки</a> <!-- # в ссылках используется как заглушка. Когда мы никуда не хотим переходить -->
+                |
+                <a href="#">Политика конфиденциальности</a>
             </div>
-            <div class="text">Позвоните нам 8-800-555-01-21</div>
+            Позвоните нам <a href="tel:+88005550121">8-800-555-01-21</a> <!-- Ссылки можно создавать для быстрых звонков и отправки електронных писем (mailto) -->
         </div>
     </footer>
 </body>
